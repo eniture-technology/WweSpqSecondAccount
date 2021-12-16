@@ -1,0 +1,25 @@
+{
+  "name": "eniture/wwe-spq-second-account",
+  "description": "Module is dependant on Worldwide Express Small Package Quotes for Magento 2 by Eniture Technology. It provides the ability to adds second worldwide express account",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "require": {},
+  "authors": [
+    {
+      "name": "Eniture Technology",
+      "email": "sales@eniture.com",
+      "homepage": "https://eniture.com",
+      "role": "Owner"
+    }
+  ],
+  "autoload": {
+    "files": [ "registration.php"],
+    "psr-4": {
+      "Eniture\\WweSpqSecondAccount\\": ""
+    }
+  } 
+}

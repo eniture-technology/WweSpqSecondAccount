@@ -1,0 +1,16 @@
+<div class="pp-buttons-container">
+    <button class="primary" id="<?= /* @noEscape */ $block->getId() ?>" connAjaxUrl='<?= /* @noEscape */ $block->getAjaxCheckUrl() ?>'>
+        <span>
+            <span>
+                <span>
+                    <?= /* @noEscape */ $block->escapeHtml($block->getButtonLabel()); ?>
+                </span>
+            </span>
+        </span>
+    </button>
+</div>
+
+<!-- Display Test Conn Response Message -->
+<div id="rg-wwesm-conn-response" class="rg-wwesm-conn-response"></div>
+
+

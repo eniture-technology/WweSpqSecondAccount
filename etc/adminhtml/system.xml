@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Shipping
+ * @package    Eniture_WweSpqSecondAccount
+ * @author     Eniture Technologies
+ * @website    https://eniture.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="WweSmConnSetting" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+            <group id="ENWweSpqSecondAcc" translate="label" type="text" sortOrder="16" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Worldwide Express account for residential ground</label>
+                <field id="rgAccountNumber" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Account Number</label>
+                </field>
+                <field id="rgUsername" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Username</label>
+                </field>
+                <field id="rgPassword" translate="label" type="text" sortOrder="5" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Password</label>
+                </field>
+                <field id="rgAuthenticationKey" translate="label" type="text" sortOrder="6" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Authentication Key</label>
+                </field>
+                <field id="rgTestConnection" translate="label" sortOrder="8" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Eniture\WweSpqSecondAccount\Block\System\Config\TestConnection</frontend_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
